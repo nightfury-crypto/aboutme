@@ -10,7 +10,18 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
-.w3-display-container > img {
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+
+.w3-display-container>img {
     filter: blur(0.5);
     object-fit: contain;
 }
@@ -20,10 +31,10 @@ body {
     width: 100%;
 }
 
-.w3-display-bottomleft > h2 {
+.w3-display-bottomleft>h2 {
     font-size: 1.2em !important;
     font-weight: 600;
-    
+
 }
 
 .chipsAll {
@@ -35,7 +46,8 @@ body {
     gap: 10px;
     margin-top: 10px;
 }
-.chipsAll > .chip {
+
+.chipsAll>.chip {
     border-radius: 8px;
     background-color: #009688;
     width: fit-content;
@@ -60,9 +72,9 @@ body {
     font-size: 1.1em;
 }
 
-.summary > h2{
+.summary>h2 {
     color: #009688 !important;
-   font-family: 'Gill Sans', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-weight: 600;
     font-size: 1.3em;
 }
@@ -73,11 +85,12 @@ body {
     align-items: center;
     gap: 10px;
 }
-.chip > i {
+
+.chip>i {
     font-size: 1.3em;
 }
 
-.chipsAll > .chip:hover {
+.chipsAll>.chip:hover {
     background-color: #1fa799;
 }
 
@@ -88,7 +101,7 @@ body {
     gap: 10px;
 }
 
-.projectshow > a {
+.projectshow>a {
     text-decoration: none;
     color: #009688;
     font-weight: 600;
